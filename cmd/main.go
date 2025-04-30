@@ -2,11 +2,12 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/bradfitz/gomemcache/memcache"
-	"github.com/gofiber/fiber/v2"
 	"io"
 	"log"
 	"net/http"
+
+	"github.com/bradfitz/gomemcache/memcache"
+	"github.com/gofiber/fiber/v2"
 )
 
 type Photo struct {
